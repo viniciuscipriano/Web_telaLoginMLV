@@ -1,0 +1,39 @@
+#coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    margin-bottom: 30px;
+    border-color: rgb(0, 0, 0);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: transparent;
+    width: 280px;
+}
+
+#senha {
+    margin-bottom: 45px;
+    border-color: black;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: transparent;
+    width: 280px;
+}
+
+#botao {
+    margin-bottom: 18px;
+    margin-top: 12px;
+    height: 6vh;
+    border-radius: 40px;
+    border-color: transparent;
+    font-size: 18px;
+}
+
+#principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
