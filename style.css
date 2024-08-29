@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(222, 248, 228);
+}
+
 #coluna {
     display: flex;
     flex-direction: column;
@@ -32,8 +36,22 @@
     font-size: 18px;
 }
 
-#principal{
+.principal{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 85vh;
+    padding-bottom: 5px;
+}
+
+#container{
+    font-family: 'Muli',sans-serif;
+    border: 1px solid rgb(0, 0, 0);
+    border-color: transparent;
+    border-radius: 15px;
+    padding-bottom: 60px;
+    padding-right: 45px;
+    padding-left: 45px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.2);
 }
